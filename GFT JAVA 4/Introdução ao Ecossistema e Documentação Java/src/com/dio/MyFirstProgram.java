@@ -8,6 +8,5 @@ public class MyFirstProgram {
         Order order = new Order("code1234");
 
         System.out.println(order);
-        
     }
 }
