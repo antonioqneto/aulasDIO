@@ -1,12 +1,12 @@
 package com.dio;
 
-import com.dio.base.Order;
+import com.dio.base.Order1;
 
 public class MyFirstProgram {
 
     public static void main(String[] args) {
-        Order order = new Order("code1234");
+        final Order1 order1 = new Order1 ("code1234", 99);
 
-        System.out.println(order);
+        System.out.println(order1);
     }
 }
