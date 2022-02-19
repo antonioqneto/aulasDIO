@@ -20,6 +20,7 @@ Utilizando o OpenJdk é possível gerar a documentação em HTML através do com
 
     javadoc -d javadoc/ -sourcepath src/ -subpackages com.dio
 
+<<<<<<< HEAD
 * javac - java compiler
 
 * -d - diretorio
@@ -70,3 +71,6 @@ Desde quando foi adicionado
 Descreve exceções que podem ser lançadas por um método
 * @version
 Descreve a versão da classe ou método
+=======
+-sourcepath - 
+>>>>>>> 3b2b337a5babd58e1be523973246381d2cfb1619
