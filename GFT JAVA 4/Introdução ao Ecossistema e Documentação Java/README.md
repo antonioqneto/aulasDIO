@@ -1,4 +1,4 @@
-## Java Version Managem
+## Java Version Management
 
 https://github.com/shyiko/jabba
 
