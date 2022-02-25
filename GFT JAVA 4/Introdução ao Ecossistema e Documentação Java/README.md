@@ -9,6 +9,13 @@ jabba
     jabba install openjdk@1.11 //instala implementação desejada  
     jabba use openjdk@1.11  
     java -version  
+    
+#### Instalação
+
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Invoke-Expression (
+  Invoke-WebRequest https://github.com/shyiko/jabba/raw/master/install.ps1 -UseBasicParsing
+).Content
 
 ## Compilaçao
 
