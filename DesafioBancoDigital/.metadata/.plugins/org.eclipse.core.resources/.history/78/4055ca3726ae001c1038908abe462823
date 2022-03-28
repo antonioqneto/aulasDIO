@@ -1,0 +1,9 @@
+
+public class ContaCorrente extends Conta implements imprimirInfosComuns{
+
+	@Override
+	public void imprimirExtrato() {
+		System.out.println("=== Extrato Conta Poupanca ===");
+		super.imprimirInfosComuns();
+	}	
+}
